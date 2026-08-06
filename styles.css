@@ -170,20 +170,13 @@ header.site{
   letter-spacing:0.08em;text-transform:uppercase;
   padding:6px 12px;border-radius:6px;
 }
-.hero-photo-frame{
-  width:100%;aspect-ratio:4/3;
-  border-radius:12px;
-  overflow:hidden;
-  border:1px solid var(--line-light);
-  background:linear-gradient(160deg,#0d2333,#132f45);
-  display:flex;align-items:center;justify-content:center;
-}
 .hero-photo{
-  width:100%;height:100%;
-  object-fit:contain;object-position:center;
+  width:100%;height:auto;aspect-ratio:4/3;
+  border-radius:12px;
+  object-fit:cover;object-position:center 30%;
   transition:transform .5s ease;
 }
-.hero-photo-frame:hover .hero-photo{transform:scale(1.05);}
+.hero-visual:hover .hero-photo{transform:scale(1.05);}
 .visual-stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px;}
 .stat-box{
   background:rgba(246,245,241,0.05);
