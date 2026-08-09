@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# REPLACE https://www.ssrambulance.in/ WITH YOUR REAL DOMAIN ONCE CONNECTED IN VERCEL
-Sitemap: https://www.ssrambulance.in/sitemap.xml
+Sitemap: https://srisairamambulanceservices.com/sitemap.xml
