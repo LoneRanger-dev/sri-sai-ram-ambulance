@@ -34,9 +34,10 @@ document.addEventListener('click', function (e) {
     window.dataLayer = window.dataLayer || [];
     dataLayer.push({ event: 'call_click', link_url: href });
 
-    // Google Ads conversion tracking — PASTE REAL CONVERSION ID/LABEL BELOW ONCE ADS IS LIVE
-    // gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/XXXXXXXXXXXXXXXXXXXX'});
     if (typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18377593288/cjwyCPLfz98cEMijj7tE'
+      });
       gtag('event', 'call_click', { event_category: 'engagement', event_label: href });
     }
   }
