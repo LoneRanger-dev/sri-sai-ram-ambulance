@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sri Sai Ram Ambulance favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0A1E2B"/>
+      <stop offset="100%" stop-color="#1C5D82"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M20 19h24v8h-11v18h-2V27H20z" fill="#F6F5F1" opacity="0.95"/>
+  <path d="M18 45h28v4H18zm4-8h20v4H22zm3-10h14v4H25z" fill="#F0A937"/>
+  <circle cx="49" cy="18" r="7" fill="#D6291F"/>
+  <path d="M49 13v10M44 18h10" stroke="#F6F5F1" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
